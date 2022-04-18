@@ -7,14 +7,14 @@
 # Fill in the pipelines_id, pipeline_name and storage_location
 pipelines_id = "" #used to find the event path if storage location is blank
 pipeline_name = "" 
-storage_location = "" #may be blank, in which case, the pipelines_id is used for the event path tets
+storage_location = "" #may be blank, in which case, the pipelines_id is used for the event path tets tests
 
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
 
 # COMMAND ----------
 
-# derive event location based on storage_location and pipelines_id
+# derive event location based on storage_location and pipelines_id test
 
 event_location = ""
 
